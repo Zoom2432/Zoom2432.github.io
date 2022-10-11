@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otrada Apartments</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <script src="./js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js" defer></script>  
+  </head>
+<body>
+  <section class="navbar">
+    <div class="container">
+        <ul class="nav" type="none">
+            <li class="nav-item">
+              <a class="nav-link" href="#">о нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">забронировать</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">контакты</a>
+            </li>
+          </ul>
+    </div>
+  </section>
+  <!-- ##################################################################### -->
+  <section class="main">
+    <div class="intro-block">
+      <h1>
+        Апартамент и студии в Отраде
+      </h1>
+      <span>
+        Посуточная аренда
+      </span>
+    </div>
+
+    <div class="main-slider">
+      <div class="slide_1 slides fade"></div>
+      <div class="slide_2 slides fade"></div>
+      <div class="slide_3 slides fade"></div>
+      <div class="slide_4 slides fade"></div>
+
+      <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>  
+  </section>
+  <!-- ##################################################################### -->
+  <section class="selection">
+    <div class="container">
+      <div class="bar">
+        <span><a href="#">Апартамент</a></span>
+        <!-- <span>Апартамент</span> -->
+        <div class="line"></div>
+        <span><a href="#">Студии</a></span>
+        <!-- <span>Студии</span> -->
+      </div>
+    </div>
+  </section>
+  <!-- ##################################################################### -->
+  <section class="booking">
+    <div class="container">
+      <div class="booking-block"></div>
+    </div>
+  </section>
+  <!-- ##################################################################### -->
+  <section class="photo-block">
+    <div class="container">
+      <div class="photos">
+        <a href="./images/img/first_page/rooms/1.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/1.jpg" alt="#">
+        </a>
+        <a href="./images/img/first_page/rooms/2.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/2.jpg" alt="#">
+        </a>
+        <a href="./images/img/first_page/rooms/3.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/3.jpg" alt="#">
+        </a>
+        <a href="./images/img/first_page/rooms/4.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/4.jpg" alt="#">
+        </a>
+        <a href="./images/img/first_page/rooms/5.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/5.jpg" alt="#">
+        </a>
+        <a href="./images/img/first_page/rooms/6.jpg" data-fancybox="gallery" class="photo">
+          <img src="./images/img/first_page/rooms/6.jpg" alt="#">
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ##################################################################### -->
+  <section class="info-block">
+    <div class="container">
+      <h2>"Отрада-Апарт"</h2>
+      <div class="all">
+        <div class="info-text">
+          <p>Семейные номера квартирного типа и жилые студии "Отрада-Апарт" расположены 10<br>минут езды на маршрутке от метро "Пятницкое шоссе" по адресу: Московская область,<br>Красногорский район, пос. Отрадное, ул. Пятницкая д. 5 и ул. Пятницкая д. 16</p>
+          <p>Тип размещения: Квартирного типа, Семейный номер, Посуточная аренда</p>
+          <p>Апартаменты и квартиры с кухонными принадлежностями и микроволновой печью<br>Размер: от 20 до 33 м²</p>
+          <p>Рядом расположен бизнес-Центр, рестораны, кафе, кулинария/кафе/пекарня "Вкусные<br>привычки", салон красоты "Шоколад", спортивный зал, цветочный салон<br>"Отрада-Цветы", детская площадка,  ТЦ "Отрада", "продуктовые магазины "Пятерочка" и<br>"Магнит", аптека, почтовое отделение, Конно-спортивный клуб "Отрада". Расстояние до<br>клиники Медси 10-15 минут пешком или 5 минут на автомобиле или такси.</p>
+        </div>
+        <div class="info-icons">
+          <div>
+            <img src="./images/icons/first_page/info/wifi.png" alt="#">
+            <span>Бесплатный Wi-fi</span>
+          </div>
+          <div>
+            <img src="./images/icons/first_page/info/lamp.png" alt="#">
+            <span>Вся мебель и<br>принадлежности </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-we">
+    <div class="container">
+      <div class="content">
+        <div class="why-we-text">
+          <h2>Почему мы?</h2>
+          <ul>
+            <li>Бизнес стандарт</li>
+            <li>Современная инфраструктура</li>
+            <li>Транспортная доступность</li>
+            <li>Соотношение цены и качества</li>
+            <li>Прекрасная экология</li>
+          </ul>
+        </div>
+        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/apartament_v_otrada_apart/180015922691/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Апартамент в Отрада-Апарт</a><a href="https://yandex.ru/maps/1/moscow-and-moscow-oblast/category/short_term_housing_rental/197061821387/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Жильё посуточно в Москве и Московской области</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUZiGr4LD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+      </div>
+    </div>
+  </section>
+  <!-- ##################################################################### -->
+  
+  <section class="footer">
+    <a class="Whatsapp" href="Wa.me/+79166558176">
+      <img src="./images/icons/first_page/whatsap.png" alt="Написать в Whatsapp">
+    </a>
+    <div class="container">
+      <div class="footer-all">
+        <div class="text-1">
+          <h2>Свяжитесь с нами:</h2>
+          <span>aparthotelotrada@gmai.com</span>
+          <span>Тел. +7 (977)-349-35-90</span>
+          <span>Тел. +7 (916)-655-81-70</span>
+        </div>
+        <div class="text-2">
+          <h2>Адрес:</h2>
+          <p>143442, Росийская Федерация, пос. Отрадное,<br>Московская обл.,Красногорский р-н, ул. Пятницкая д.5  </p>
+          <p>143442, Росийская Федерация, пос. Отрадное,<br>Московская обл.,Красногорский р-н, ул. Пятницкая д.16  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

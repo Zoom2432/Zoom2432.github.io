@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    position: relative;
+    max-width: 1345px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* ##################### Section "navbar" ##################### */
+
+.navbar {
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: rgba(196, 196, 196, 0.2);
+    backdrop-filter: blur(25px);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.navbar .nav .nav-item:not(:last-child) {
+    margin: 0 75px 0 0;
+}
+
+/* ##################### Section "intro-block" ##################### */
+
+.main-slider {
+    position: relative;
+}
+
+.main-slider .slides img {
+    height: 740px;
+    width: 100%;
+    /* background-size: cover; */
+} 
+
+.dot {
+    cursor: pointer;
+    width: 20px;
+    height: 19px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6 ease;
+}
+
+.dot:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+
+.active, .dot:hover {
+    background-color: #575757;
+}
+
+/* .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes fade {
+    from{opacity:.4}
+    to{opacity: 1}
+} */
+
+.slide_1 {
+    height: 740px;
+    background: url('../images/img/main_slider/slide_1.jpg') center center/cover no-repeat;
+}
+
+.slide_2 {
+    height: 740px;
+    background: url('../images/img/main_slider/slide_2.jpg') center center/cover no-repeat;
+}
+
+.slide_3 {
+    height: 740px;
+    background: url('../images/img/main_slider/slide_3.jpg') center center/cover no-repeat;
+}
+
+.slide_4 {
+    height: 740px;
+    background: url('../images/img/main_slider/slide_4.jpg') center center/cover no-repeat;
+}
+
+.dots {
+    position: absolute;
+    left:50%;
+    transform:translate(-50%);
+    bottom: 36px;
+}
+
+.intro-block {
+    position: absolute;
+    top: 185px;
+    left: 5.7%;
+    z-index: 1;
+    width: 557px;
+    height: 280px;
+    background: rgba(196, 196, 196, 0.05);
+    backdrop-filter: blur(20px);
+    text-align: center;
+    
+}
+
+.intro-block h1 {
+    margin-top: 50px;
+    margin-bottom: 23px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.intro-block span {
+    margin-top: 60px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;  
+    text-transform: uppercase;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+/* ##################### Section "selection" ##################### */
+
+.selection {
+    height: 200px;
+    padding: 84px 0 84px 0;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar span {
+    width: 174px;
+}
+
+.bar a {
+    display: inline-block;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+}
+
+.bar a:hover {
+    color:#1A76E1;
+}
+
+.bar .line {
+    display: inline-block;
+    border-left: 2px solid black;
+    height: 32px;
+    margin: 0 30px 0 30px;
+}
+
+.bar img {
+    padding: 0 30px 0 30px;
+}
+
+/* ##################### Section "photo-block" ##################### */
+
+.booking {
+    height: 270px;
+}
+
+.booking-block {
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+/* ##################### Section "photo-block" ##################### */
+
+.photo-block {
+    height: 750px;
+    margin: 90px 0 90px 0;
+}
+
+.photos {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap
+}
+
+.photo {
+    width: 430px;
+    height: 365px;
+}
+
+/* ##################### Section "info-block" ##################### */
+
+.info-block {
+    max-height: 520px;
+    margin-top: 90px;
+    background: #ECEBEB;
+    padding-bottom: 80px;
+}
+
+.info-block h2 {
+    padding-top: 50px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.all {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all .info-text {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.all .info-text p:not(:first-child) {
+    margin-top: 15px;
+}
+
+.info-icons {
+    margin-right: 63px;
+}
+
+.info-icons div {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.info-icons div:not(:first-child) {
+    margin-top: 85px;
+}
+
+.info-icons img {
+    display: block;
+    margin: 0 auto;
+}
+
+.info-icons span {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #000000;
+    text-align: center;
+}
+
+/* ##################### Section "info-block" ##################### */
+
+.why-we {
+    max-height: 530px;
+    margin-top: 90px;
+    background: #ECEBEB;
+}
+
+.why-we .content {
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-we-text h2 {
+    margin-top: 42px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.why-we-text ul {
+    margin-top: 50px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.why-we-text ul li {
+    list-style: inside;
+}
+
+.why-we-text ul li:not(:first-child) {
+    margin-top: 15px;
+}
+
+/* ##################### Section "footer-block" ##################### */
+
+.footer {
+    max-height: 355px;
+    margin-top: 90px;
+    padding-bottom: 50px;
+    background: #747373;
+}
+
+.footer-all {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h2 {
+    margin: 55px 0 30px 0;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.footer .text-1 span {
+    display: block;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.footer .text-1 span:not(:first-child) {
+    margin-top: 20px;
+}
+
+.footer .text-2 p {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer .text-2 p:not(:first-child) {
+    margin-top: 20px;
+}
+
+.Whatsapp {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Whatsapp img {
+    width: 100px;
+}
