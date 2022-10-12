@@ -376,7 +376,7 @@ a {
     color: #FFFFFF;
 }
 
-.footer .text-1 span {
+.footer .text-1 a {
     display: block;
     font-family: 'Muller';
     font-style: normal;
@@ -386,7 +386,7 @@ a {
     color: #FFFFFF;
 }
 
-.footer .text-1 span:not(:first-child) {
+.footer .text-1 a:not(:first-child) {
     margin-top: 20px;
 }
 
@@ -413,4 +413,153 @@ a {
 
 .Whatsapp img {
     width: 100px;
+}
+
+/* ##################### Section "footer-block" ##################### */
+
+.room-info {
+    max-height: 470px;
+    margin-top: 90px;
+    background-color: #EFEFEF;
+}
+
+.room-info-all {
+    padding: 65px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-info-img {
+    position: relative;
+    height: 356px;
+    width: 396px;
+}
+
+.room-info-img a {
+    position: absolute;
+}
+
+.room-info-img a:first-child{
+    z-index: 1;
+}
+
+.room-info-img a img {
+    width: 396px;
+    height: 356px;
+}
+
+.room-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-info-text h2 {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #5397E9;
+}
+
+.room-info-text span {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.room-info-text .capacity-span {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.room-info-icons img:not(:last-child) {
+    padding-right: 30px;
+}
+
+.room-info-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.room-info-price .capacity .size {
+    margin-left: auto;
+    margin-right: 0em;
+    margin-bottom: 25px;
+    width: 60px;
+    height: 24px;
+    background: #5397E9;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.room-info-price .capacity .size span {
+    display: block;
+    padding-top: 6px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.room-info-price .capacity-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.room-info-price .capacity-icons img:not(:last-child) {
+    padding-right: 7px;
+}
+
+.room-info-price .price {
+    text-align: center;
+}
+
+.room-info-price .price span {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.room-info-price .price span span {
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.room-info-price .price button {
+    display: block;
+    margin-top: 10px;
+    width: 258px;
+    height: 66px;
+    background: #5397E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    border: none;
+
+    font-family: 'Muller';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
 }
