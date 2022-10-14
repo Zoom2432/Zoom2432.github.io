@@ -210,6 +210,29 @@ a {
 
 /* ##################### Section "booking" ##################### */
 
+.rc-form-inline {
+    background-color: #5397E9 !important;
+}
+
+.rc-btn {
+    background-color: #5397E9 !important;
+}
+
+.rc-flat__more__btn {
+    background-color: white !important;
+    border-color: #5397E9 !important;
+    color: #5397E9 !important;
+}
+
+.rc-search_form__search_btn {
+    background-color: white !important;
+    color: #5397E9 !important;
+}
+
+.rc-flat_list__wrapper {
+    max-width: 100%;
+}
+
 /* ##################### Section "photo-block" ##################### */
 
 .photo-block {
@@ -234,7 +257,7 @@ a {
 /* ##################### Section "info-block" ##################### */
 
 .info-block {
-    max-height: 520px;
+    /* max-height: 520px; */
     margin-top: 90px;
     background: #ECEBEB;
     padding-bottom: 80px;
@@ -300,10 +323,10 @@ a {
     text-align: center;
 }
 
-/* ##################### Section "info-block" ##################### */
+/* ##################### Section "why-we" ##################### */
 
 .why-we {
-    max-height: 530px;
+    /* max-height: 530px; */
     margin-top: 90px;
     background: #ECEBEB;
 }
@@ -405,7 +428,7 @@ a {
     width: 100px;
 }
 
-/* ##################### Section "footer-block" ##################### */
+/* ##################### Section "room-info" ##################### */
 
 .room-info {
     max-height: 470px;
