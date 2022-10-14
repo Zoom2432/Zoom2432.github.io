@@ -288,9 +288,178 @@
 
 
 
-@media (max-width: 568px) {
+@media (max-width: 470px) {
     .container {
-        max-width: 568px;
+        max-width: 470px;
+    }
+
+    .navbar .nav {
+        justify-content: space-evenly;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .navbar .nav .nav-item:not(:last-child) {
+        margin: 0 20px 0 0;
+    }
+
+    .bar span {
+        width: auto;
+    }
+
+/* ##################### Section "intro-block" ##################### */
+
+    .intro-block {
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -60%);
+    }
+
+    .intro-block h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .intro-block span {
+        font-size: 24px;
+        line-height: 24px; 
+    }
+
+/* ##################### Section "photo-block" ##################### */
+
+    .photo-block {
+        display: none;
+    }
+
+/* ##################### Section "info-block" ##################### */
+
+    .info-block {
+        margin-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .all {
+        display: block;
+    }
+
+    .info-icons {
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .all .info-text {
+        padding: 0 20px 0 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        line-height: 16px;
+        margin: auto;
+    }
+
+    .info-block h2 {
+        text-align: center;
+        margin-left: auto;
+        padding-top: 25px;
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .info-icons {
+        padding-top: 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+    }
+
+    .info-icons div:not(:first-child) {
+        margin-top: auto;
+    }
+
+    .info-icons img {
+        width: 50px;
+    }
+
+    .info-icons span {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+/* ##################### Section "why-we" ##################### */
+
+    .why-we {
+        margin-top: 55px;
+    }
+
+    .why-we .content {
+        display: block;
+        padding: 30px 0 30px 0;
+        text-align: center;
+    }
+
+    .why-we-text h2 {
+        margin-top: 0;
+        font-size: 27px;
+        line-height: 27px;
+    }
+
+    .why-we-text ul {
+        margin: 30px 0 30px 0;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .content-map {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 450px;
+        max-height: 300px;
+    }
+
+/* ##################### Section "footer-block" ##################### */
+
+    .Whatsapp img {
+        width: 60px;
+    }
+
+    .footer-all {
+        padding: 0 15px 0 15px;
+    }
+
+    .text-1 {
+        padding-right: 15px;
+    }
+
+    .footer h2 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .footer .text-1 a {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .footer .text-2 p {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+
+
+
+/* #################################################################### */
+/* #################################################################### */
+/* #################################################################### */
+
+
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 375px;
     }
 
     .navbar .nav {
@@ -386,7 +555,6 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        /* align-items: flex-start; */
         margin-right: auto;
     }
 
