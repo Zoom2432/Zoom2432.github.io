@@ -220,6 +220,10 @@ a {
     cursor: pointer;
 }
 
+.calendar-btn:hover {
+    color:#1A76E1;
+}
+
 .bar img {
     padding: 0 30px 0 30px;
 }
