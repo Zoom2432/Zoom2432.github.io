@@ -171,8 +171,8 @@ a {
 /* ##################### Section "selection" ##################### */
 
 .selection {
-    height: 200px;
-    padding: 84px 0 84px 0;
+    padding: 50px 0 50px 0;
+    position: relative;
 }
 
 .bar {
@@ -181,9 +181,9 @@ a {
     align-items: center;
 }
 
-.bar span {
+/* .bar span {
     width: 174px;
-}
+} */
 
 .bar a {
     display: inline-block;
@@ -193,6 +193,7 @@ a {
     font-size: 30px;
     line-height: 30px;
     color: black;
+    cursor: pointer;
 }
 
 .bar a:hover {
@@ -208,6 +209,40 @@ a {
 
 .bar img {
     padding: 0 30px 0 30px;
+}
+
+/* .calendar-wrapper {
+    display: none;
+    width: 100%;
+    position: absolute;
+} */
+
+.selection .calendar {
+    margin-top: 50px;
+    display: none;
+    justify-content: space-evenly;
+}
+
+.show {
+    display: flex !important;
+}
+
+.selection .calendar .calendar-item {
+    text-align: center;
+}
+
+.selection .calendar .calendar-item span {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Muller';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 22px;
+    color: black;
+}
+
+.selection .calendar .calendar-item .all {
+    margin-top: auto;
 }
 
 /* ##################### Section "booking" ##################### */

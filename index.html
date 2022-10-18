@@ -63,20 +63,36 @@
   <section class="selection" id="selection">
     <div class="container">
       <div class="bar">
-        <span><a href="#">Апартамент</a></span>
+        <span><a href="#booking">Апартамент</a></span>
         <div class="line"></div>
-        <span><a href="#">Студии</a></span>
+        <span><a href="#booking">Студии</a></span>
+        <div class="line"></div>
+        <span onclick="WrapFunction()"><a>Календарь занятости</a></span>
       </div>
+      <div class="calendar" id="calendar">
+        <div class="calendar-item">
+          <span>Апартамент</span>
+          <script src='https://realtycalendar.ru/widgets/script?id=113993' type='text/javascript'></script><div id='realtycalendar-widget-container-113993' class='realty-calendar-widget-wrap'></div>
+        </div>
+        <div class="calendar-item">
+          <span>Студия №153</span>
+          <script src='https://realtycalendar.ru/widgets/script?id=113996' type='text/javascript'></script><div id='realtycalendar-widget-container-113996' class='realty-calendar-widget-wrap'></div>        </div>
+        <div class="calendar-item">
+          <span>Студия №154</span>
+          <script src='https://realtycalendar.ru/widgets/script?id=113997' type='text/javascript'></script><div id='realtycalendar-widget-container-113997' class='realty-calendar-widget-wrap'></div>        </div>
+      </div> 
     </div>
   </section>
 
   <!-- ##################################################################### -->
 
+  
+
+  <!-- ##################################################################### -->
+  
   <section class="booking" id="booking">
     <div class="container">
-      <!-- <div class="booking-block"> -->
         <script src="https://realtycalendar.ru/webpack/application.js?_t=204a2a79bf3bb3b86c21"></script><div id="rc-bookings-widget-root"></div><script type="text/javascript">RC_BOOKINGS_WIDGET.init('c80f0df236590b2d7142a7842bdcaf2c');</script>
-      <!-- </div> -->
     </div>
   </section>
 
